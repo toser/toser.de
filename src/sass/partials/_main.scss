@@ -1,0 +1,20 @@
+.cloud-list {
+    @include no-bullets;
+    
+    margin: $spacing-m 0;
+    padding: 0;
+}
+
+.cloud-list__element {
+    display: inline-block;
+    padding: $spacing-s;
+}
+
+.cloud-list__image {
+    width: rem(75px);
+    padding: $spacing-xs;
+}
+
+.cloud-list__image--playfm {
+    width: rem(45px);
+}

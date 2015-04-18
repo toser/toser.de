@@ -2,3 +2,6 @@
 .idea/
 *.mp4
 *.webm
+node_modules
+.sass-cache
+*.map

@@ -1,0 +1,65 @@
+body {
+    font-family: $font-family-base;
+    font-size: $font-size-base;
+    text-align: center;
+    color: $color-text;
+}
+
+a {
+    @include hover-link;
+    @include link-colors(
+        $color-brand,
+        $color-brand,
+        $color-brand,
+        $color-brand,
+        $color-brand)
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    line-height: 1.282;
+    margin: 1em 0 .6em;
+}
+
+h1 {
+    font-size: $font-size-h2;
+    font-weight: 400;
+    color: $color-brand;
+    text-shadow: 1px 0 0 $black;
+
+    @media all and (min-width: 30rem) {
+        margin-top: rem(100px);
+        font-size: $font-size-h1;
+        font-weight: 300;
+    }
+}
+
+h2 {
+    font-size: $font-size-h2;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: $font-size-h3;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: $font-size-h4;
+    font-weight: 400;
+}
+
+h5 {
+    font-size: $font-size-h5;
+    font-weight: 400;
+}
+
+h6 {
+    font-size: $font-size-h6;
+    font-weight: 400;
+}
