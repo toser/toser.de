@@ -2,7 +2,7 @@
    "use strict";
    
    var $video = $('#video'),
-       video = Math.ceil((Math.random()*4));
+       video = Math.ceil((Math.random()*3));
        
     $video.vide({
         mp4: 'video/0' + video + '.mp4',

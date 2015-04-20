@@ -18,3 +18,23 @@
 .cloud-list__image--playfm {
     width: rem(45px);
 }
+
+.music-list {
+    @include no-bullets;
+    
+    padding: 0;
+}
+
+.music-list__element {
+    display: inline-block;
+    padding: $spacing-s 0;
+}
+
+hr{
+    height: 0;
+    width: 100%;
+    max-width: 18em;
+    margin: $spacing-xl auto;
+    border: none;
+    border-bottom: 2px solid rgba(255,255,255,.5);
+}
